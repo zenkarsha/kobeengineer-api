@@ -1,0 +1,1 @@
+var DEBUG,float,headerTo,xx;DEBUG=!0,xx=function(e){return DEBUG&&console.log(e)},float=function(e){return parseFloat(e.replace("px",""))},headerTo=function(e){return window.location=e},$(function(){return $.ajaxSetup({headers:{"X-CSRF-TOKEN":$('meta[name="csrf-token"]').attr("content")}}),NProgress.configure({showSpinner:!1})});

@@ -1,0 +1,20 @@
+{
+  "name": "laravel-starter",
+  "version": "1.0.0",
+  "author": "zenkarsha",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-react": "^3.1.0",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jeet": "^6.1.5",
+    "laravel-elixir": "^6.0.0-15",
+    "laravel-elixir-livereload": "^1.1.6",
+    "nib": "^1.1.2",
+    "rupture": "^0.6.2",
+    "gulp-if": "^2.0.2"
+  },
+  "private": true
+}

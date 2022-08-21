@@ -1,0 +1,34 @@
+html
+  width 100%
+  height auto
+
+body
+  width 100%
+  height auto
+  min-width 300px
+  min-height 100vh
+  -webkit-text-size-adjust 100%
+  -webkit-font-smoothing antialiased
+  text-rendering optimizeLegibility
+  font-family "hack", "Helvetica Neue", Helvetica, Arial, "Hiragino Maru Gothic ProN", "STHeiti", "微軟正黑體", "Microsoft Yahei", sans-serif
+  font-size $global-font-size
+  line-height $global-lineheight
+  color $global-text-color
+  background $global-background
+  &.lock-scroll
+    overflow hidden
+    position fixed
+
+a
+  color: $link-color
+  text-decoration: none
+  &:hover
+    color: $link-hover-color
+  &:active
+    color: $link-active-color
+  &:visited
+    color: $link-visited-color
+
+hr
+  border none
+  border-bottom 1px solid #ccc

@@ -1,0 +1,7 @@
+/vendor
+/node_modules
+sftp-config.json
+yarn.lock
+composer.lock
+/public/docs
+.DS_Store
